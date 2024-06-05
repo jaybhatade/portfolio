@@ -19,7 +19,7 @@ function Stack() {
             <div className="flex gap-6 justify-start pt-8 md:p-4 flex-wrap">
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Html</h2>
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">CSS</h2>
-            <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Javascrpit</h2>
+            <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Javascript</h2>
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">React</h2>
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Tailwind CSS</h2>
             <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">ASP.NET</h2>

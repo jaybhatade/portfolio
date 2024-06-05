@@ -9,7 +9,8 @@ function App() {
   
   return (
     <div className='selection:text-white selection:bg-teal-600'>
-      
+      <div className='scrollbar'></div>
+
       <Navigation/>
       
       <HeroSection/>
@@ -19,6 +20,8 @@ function App() {
       <Stack />
 
       <Projects />
+
+
     </div>
   )
 }
