@@ -21,7 +21,7 @@ function Projects() {
         <div className="h-fit w-[100%] flex flex-col md:flex-row  p-6 ">
           <div className="w-100 md:w-1/2 h-fit bg-black  md:p-4 rounded-l-2xl">
             <h4 className="font-semibold text-2xl md:text-3xl pb-4">
-              <span className="md:ml-2 font-mono text-teal-600">0.1 </span> Gym
+              <span className="md:ml-2 font-mono text-teal-600 font-bold">0.1</span> Gym
               Fit Website
             </h4>
 
@@ -79,7 +79,7 @@ function Projects() {
 <div className="h-fit w-[100%] flex flex-col md:flex-row  p-6 ">
           <div className="w-100 md:w-1/2 h-fit bg-black  md:p-4 rounded-l-2xl">
             <h4 className="font-semibold text-2xl md:text-3xl pb-4">
-              <span className="md:ml-2 font-mono text-teal-600">0.2 </span> Gym
+              <span className="md:ml-2 font-mono text-teal-600 font-bold">0.2</span> Gym
               Fit Website
             </h4>
 
@@ -138,7 +138,7 @@ function Projects() {
 <div className="h-fit w-[100%] flex flex-col md:flex-row  p-6 ">
           <div className="w-100 md:w-1/2 h-fit bg-black  md:p-4 rounded-l-2xl">
             <h4 className="font-semibold text-2xl md:text-3xl pb-4">
-              <span className="md:ml-2 font-mono text-teal-600">0.3 </span> Gym
+              <span className="md:ml-2 font-mono text-teal-600 font-bold">0.3</span> Gym
               Fit Website
             </h4>
 

@@ -13,10 +13,10 @@ function ContactSection() {
             <h2 className="text-4xl md:text-[43px] leading-tight font-bold">Let's Talk <br /> on Something Great <br />Togeather</h2>
 
             <ul>
-                <li><a href="" className="flex gap-3 my-7"><MdMailOutline size={25}/> jaybhatade7@gmail.com</a></li>
-                <li><a href="" className="flex gap-3 my-7"><FaInstagram  size={25}/>jaybhatade.ai</a></li>
-                <li><a href="" className="flex gap-3 my-7"><FaLinkedin  size={25}/>jay-bhatade</a></li>
-                <li><a href="" className="flex gap-3 my-7 md:mb-0"><FaGithub  size={25}/> @jaybhatade</a></li>
+                <li><a target='_blank' href="mailto:jaybhatade7@gmail.com" className="flex gap-3 my-7"><MdMailOutline size={25}/> jaybhatade7@gmail.com</a></li>
+                <li><a target='_blank' href="https://www.instagram.com/jaybhatade.ai/" className="flex gap-3 my-7"><FaInstagram  size={25}/>jaybhatade.ai</a></li>
+                <li><a target='_blank' href="https://in.linkedin.com/in/jay-bhatade" className="flex gap-3 my-7"><FaLinkedin  size={25}/>jay-bhatade</a></li>
+                <li><a target='_blank' href="https://github.com/jaybhatade" className="flex gap-3 my-7"><FaGithub  size={25}/> @jaybhatade</a></li>
             </ul>
           </div>
           <div className="w-100 md:w-[50%] h-fit p-8 md:px-10 rounded-r-2xl ">

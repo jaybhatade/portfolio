@@ -14,19 +14,19 @@ function Navigation() {
             Jay Bhatade
           </h1>
           <ul className="hidden md:flex ">
-            <li className="m-4 text-xl cursor-pointer hover:text-indigo-600 transition duration-150 ease-in-out font-bold">
+            <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
               Home
             </li>
-            <li className="m-4 text-xl cursor-pointer hover:text-indigo-600 transition duration-150 ease-in-out font-bold">
+            <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
               About
             </li>
-            <li className="m-4 text-xl cursor-pointer hover:text-indigo-600 transition duration-150 ease-in-out font-bold">
+            <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
               Stack
             </li>
-            <li className="m-4 text-xl cursor-pointer hover:text-indigo-600 transition duration-150 ease-in-out font-bold">
+            <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
               Projects
             </li>
-            <li className="m-4 text-xl cursor-pointer hover:text-indigo-600 transition duration-150 ease-in-out font-bold">
+            <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
               Contact
             </li>
           </ul>
