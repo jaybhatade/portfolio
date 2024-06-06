@@ -20,7 +20,7 @@ function ContactSection() {
             </ul>
           </div>
           <div className="w-[50%] h-fit p-8 px-10 rounded-r-2xl ">
-            <div className="bg-white rounded-3xl w-[100%]  h-[100%] text-black p-8">
+            <div className="bg-zinc-900 rounded-3xl w-[100%]  h-[100%] text-white p-8">
                 <form action="" method="post">
                 
                 <label className="text-md font-semibold" htmlFor="name">Your Name</label> <br />
