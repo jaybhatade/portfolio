@@ -9,7 +9,7 @@ function ContactSection() {
         <h2 className="text-3xl font-bold p-10">Get in Touch</h2>
 
         <div className="w-[100%] flex flex-row">
-          <div className="w-[50%] p-8 rounded-l-2xl flex flex-col justify-between bg-zinc-700">
+          <div className="w-[50%] p-8 rounded-l-2xl flex flex-col justify-between ">
             <h2 className="text-[43px] leading-tight font-bold">Let's Talk <br /> on Something Great <br />Togeather</h2>
 
             <ul>
@@ -19,7 +19,7 @@ function ContactSection() {
                 <li><a href="" className="flex gap-3 my-7 md:mb-0"><FaGithub  size={25}/> jaybhatade7@gmail.com</a></li>
             </ul>
           </div>
-          <div className="w-[50%] h-fit p-8 px-10 rounded-r-2xl bg-slate-700 ">
+          <div className="w-[50%] h-fit p-8 px-10 rounded-r-2xl ">
             <div className="bg-white rounded-3xl w-[100%]  h-[100%] text-black p-8">
                 <form action="" method="post">
                 
