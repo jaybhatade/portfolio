@@ -10,7 +10,7 @@ import FooterSection from "./Components/footer";
 function App() {
   return (
     <div className="selection:text-white selection:bg-teal-600">
-      <div className="scrollbar"></div>
+      
 
       <Navigation />
 
