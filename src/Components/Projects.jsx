@@ -192,7 +192,7 @@ function Projects() {
         </div>
 
 
-
+      <div className="w-[95%] h-[2.5px] bg-white rounded-full my-1 mt-4"></div>
 
 
       </div>

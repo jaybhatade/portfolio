@@ -5,6 +5,7 @@ import AboutScroll from "./Components/about-scroll";
 import Stack from "./Components/Stack";
 import Projects from "./Components/Projects";
 import ContactSection from "./Components/Contact-Section";
+import FooterSection from "./Components/footer";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       <Projects />
 
       <ContactSection />
+
+      <FooterSection />
+
     </div>
   );
 }
