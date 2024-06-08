@@ -2,6 +2,7 @@ import React from 'react'
 import { MdMailOutline } from "react-icons/md";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 
 function FooterSection() {
@@ -16,11 +17,11 @@ function FooterSection() {
                         <a target='_blank' href='https://in.linkedin.com/in/jay-bhatade' className='h-fit w-fit p-3 rounded-full bg-white flex items-center justify-center text-black hover:bg-teal-600 transition-all duration-500 ease-in-out'> <FaLinkedin size={25} /></a>
                     </div>
                     <div className='flex gap-5 justify-center items-center py-8'>
-                        <a href="#" className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Home</a>
-                        <a href="#" className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>About</a>
-                        <a href="#" className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Stack</a>
-                        <a href="#" className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Projects</a>
-                        <a href="#" className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Contact</a>
+                        <Link to="Home" smooth={true} duration={500} offset={-80} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Home</Link>
+                        <Link to="About" smooth={true} duration={500} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>About</Link>
+                        <Link to="Stack" smooth={true} duration={500} offset={-50} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Stack</Link>
+                        <Link to="Projects" smooth={true} duration={500} offset={-100} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Projects</Link>
+                        <Link to="Contact" smooth={true} duration={500} offset={-70} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Contact</Link>
 
                     </div>
                 </div>
