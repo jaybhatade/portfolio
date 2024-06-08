@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee'
 
 function AboutScroll() {
   return (
-    <div className="w-[100%] h-fit relative flex justify-center flex-col items-center">
+    <div id="About" className="w-[100%] h-fit relative flex justify-center flex-col items-center">
       <div className="w-[100%] h-fit py-8 bg-white rounded-t-3xl md:rounded-t-[50px] flex justify-center items-center">
         <Marquee>
         <h1 className="text-black text-[40px] md:text-[80px] font-bold uppercase">  Innovative , Creative , Passionate , Collaborative , Innovative , Creative , Passionate , Collaborative , Innovative , Creative , Passionate , Collaborative , </h1>

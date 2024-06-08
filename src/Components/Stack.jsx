@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 function Stack() {
   return (
-    <div className="flex flex-col bg-black items-center justify-center">
+    <div id="Stack" className="flex flex-col bg-black items-center justify-center">
       <div className="w-100 max-w-[1240px] h-fit py-[50px] bg-black text-white flex md:flex-row flex-col">
         <div className="md:w-[35%] w-[100%] pl-8 pt-4 md:p-4 rounded-3xl ">
           <h1 className="md:text-[55px] text-[40px] font-bold uppercase w-fit h-fit">

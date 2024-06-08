@@ -4,7 +4,7 @@ import { FaLinkedin , FaGithub , FaInstagram  } from "react-icons/fa";
 
 function ContactSection() {
   return (
-    <div className="w-100 h-fit flex justify-center items-center text-white py-10">
+    <div id="Contact" className="w-100 h-fit flex justify-center items-center text-white py-10">
       <div className="w-[100%] h-fit max-w-[1240px] flex flex-col justify-center items-center">
         
 

@@ -3,15 +3,15 @@ import { MdArrowOutward } from "react-icons/md";
 
 function Projects() {
   return (
-    <div className="   w-100 bg-black h-fit flex items-center justify-center  text-white">
+    <div id="Projects" className="w-100 bg-black h-fit flex items-center justify-center  text-white">
       <div className="max-w-[1240px] w-[95%]  flex flex-col items-center justify-center">
         <div className="w-[100%] h-100 p-4 md:pt-4 pb-2 flex items-start justify-start md:items-end md:justify-center">
-          <h1 className="uppercase text-[34px] text-left md:text-[55px] font-bold">
+          <h1 className="uppercase text-[30px] text-left md:text-[55px] font-bold">
             Featured Projects
           </h1>
         </div>
         <div className="w-100 h-fit p-4 md:p-6 md:pt-0 ">
-          <p className="text-[18px]">
+          <p className=" text-[16px] md:text-[18px]">
             These are some of the selected projects to showcase my Front-End
             Developement Skills{" "}
           </p>

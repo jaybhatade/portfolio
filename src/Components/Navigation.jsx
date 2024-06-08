@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 function Navigation() {
   const [nav, setNav] = useState(false);
@@ -7,27 +8,37 @@ function Navigation() {
     setNav(!nav);
   };
   return (
-    <div className="w-100% h-20 sticky top-0 left-0 z-[9999]">
-      <div className=" p-3">
-        <div className="text-white bg-zinc-900/[.96] rounded-full w-100 h-20 flex justify-between items-center mx-auto px-4 max-w-[1240px]  backdrop-blur-sm">
+    <div className="w-100% h-20 sticky top-0 left-0 z-[9999] ">
+      <div className="p-3">
+        <div className="text-white bg-zinc-900/[.96] rounded-full w-100 h-20 flex justify-between items-center mx-auto px-4 max-w-[1240px]  backdrop-blur-sm shadow-2xl">
           <h1 className="w-full font-bold uppercase text-3xl text-teal-500">
             Jay Bhatade
           </h1>
-          <ul className="hidden md:flex ">
+          <ul className="hidden md:flex">
             <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
-              Home
+              <Link to="Home" smooth={true} duration={500} offset={-80}>
+                Home
+              </Link>
             </li>
             <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
-              About
+              <Link to="About" smooth={true} duration={500}>
+                About
+              </Link>
             </li>
             <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
-              Stack
+              <Link to="Stack" smooth={true} duration={500} offset={-50}>
+                Stack
+              </Link>
             </li>
             <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
-              Projects
+              <Link to="Projects" smooth={true} duration={500} offset={-90}>
+                Projects
+              </Link>
             </li>
             <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
-              Contact
+              <Link to="Contact" smooth={true} duration={500} offset={-50}>
+                Contact
+              </Link>
             </li>
           </ul>
           <div
@@ -41,19 +52,37 @@ function Navigation() {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 bg-zinc-900 w-[60%] border-r border-r-zinc-700 h-screen transition-all ease-in-out duration-500 z-[9999]"
-            : "fixed left-[-100%] "
+            ? "fixed left-[50%] translate-x-[-50%] translate-y-[-50%] top-[265px] bg-zinc-900/[.98] border-[0.5px] overflow-hidden rounded-3xl w-[90%] h-fit transition-all ease-in-out duration-700 z-[189] backdrop-blur-sm shadow-2xl"
+            : "fixed left-[150%] translate-x-[-50%] translate-y-[-50%] top-[265px] bg-zinc-900  border-[1px] overflow-hidden rounded-3xl w-[90%] h-fit transition-all ease-in-out duration-1000 z-[189] opacity-0"
         }
       >
-        <h1 className="w-full font-bold uppercase text-3xl text-[#00df9a] p-4">
-          Jay Bhatade
-        </h1>
-        <ul className=" text-white">
-          <li className="p-4 border-b border-b-gray-700 hover:bg-zinc-950 transition-all ease-in-out duration-300">Home</li>
-          <li className="p-4 border-b border-b-gray-700 hover:bg-zinc-950 transition-all ease-in-out duration-300">About</li>
-          <li className="p-4 border-b border-b-gray-700 hover:bg-zinc-950 transition-all ease-in-out duration-300">Stack</li>
-          <li className="p-4 border-b border-b-gray-700 hover:bg-zinc-950 transition-all ease-in-out duration-300">Projects</li>
-          <li className="p-4 hover:bg-zinc-950">Contact</li>
+        <ul className="text-white">
+          <Link to="Home" smooth={true} duration={500} offset={-80}>
+            <li className="p-4 border-b border-b-gray-700 hover:bg-zinc-950/[.5] transition-all ease-in-out duration-300">
+              Home
+            </li>
+          </Link>
+          <Link to="About" smooth={true} duration={500}>
+            <li className="p-4 border-b border-b-gray-700 hover:bg-zinc-950/[.5]  transition-all ease-in-out duration-300">
+              About
+            </li>
+          </Link>
+          <Link to="Stack" smooth={true} duration={500} offset={-50}>
+            <li className="p-4 border-b border-b-gray-700  hover:bg-zinc-950/[.5]  transition-all ease-in-out duration-300">
+              Stack
+            </li>
+          </Link>
+
+          <Link to="Projects" smooth={true} duration={500} offset={-100}>
+            <li className="p-4 border-b border-b-gray-700  hover:bg-zinc-950/[.5]  transition-all ease-in-out duration-300">
+              Projects
+            </li>
+          </Link>
+          <Link to="Contact" smooth={true} duration={500} offset={-70}>
+          <li className="p-4  hover:bg-zinc-950/[.5] ">
+              Contact
+          </li>
+          </Link>
         </ul>
       </div>
     </div>
