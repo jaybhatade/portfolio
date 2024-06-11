@@ -18,18 +18,19 @@ function Projects() {
         </div>
         <div className="w-11/12 h-[2.5px] bg-white rounded-full my-1 mb-4"></div>
 
-        <div className="h-fit w-[100%] flex flex-col md:flex-row  p-6 ">
-          <div className="w-100 md:w-1/2 h-fit bg-black  md:p-4 rounded-l-2xl">
-            <h4 className="font-semibold text-2xl md:text-3xl pb-4">
+        <div className="h-fit md:min-h-[500px] w-[100%] flex flex-col md:flex-row  p-6 ">
+          <div className="w-100 md:w-1/2  bg-black  md:p-4 rounded-l-2xl">
+            <h4 className=" h-[10%] font-semibold text-2xl md:text-3xl pb-4">
               <span className="md:ml-2 font-mono text-teal-600 font-bold">0.1</span> Gym
               Fit Website
             </h4>
-
+            <div className="w-full h-[90%] flex items-center justify-center">
             <img
-              src="https://plus.unsplash.com/premium_photo-1714051661301-860c930a2c85?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="src/assets/ztrendz_T.jpg"
               className="h-fit  w-[100%] rounded-2xl"
               alt=""
             />
+            </div>
           </div>
           <div className="w-100 md:w-1/2 h-100 bg-black rounded-r-2xl pt-4 md:p-4 md:pt-8 md:pr-6 flex flex-col justify-between">
             <div className="h-[75%] flex flex-col justify-between">
@@ -75,19 +76,19 @@ function Projects() {
         </div>
 {/* Second Project  */}
 
-
-<div className="h-fit w-[100%] flex flex-col md:flex-row  p-6 ">
-          <div className="w-100 md:w-1/2 h-fit bg-black  md:p-4 rounded-l-2xl">
-            <h4 className="font-semibold text-2xl md:text-3xl pb-4">
-              <span className="md:ml-2 font-mono text-teal-600 font-bold">0.2</span> Gym
+<div className="h-fit md:min-h-[500px] w-[100%] flex flex-col md:flex-row  p-6 ">
+          <div className="w-100 md:w-1/2  bg-black  md:p-4 rounded-l-2xl">
+            <h4 className=" h-[10%] font-semibold text-2xl md:text-3xl pb-4">
+              <span className="md:ml-2 font-mono text-teal-600 font-bold">0.1</span> Gym
               Fit Website
             </h4>
-
+            <div className="w-full h-[90%] flex items-center justify-center">
             <img
-              src="https://plus.unsplash.com/premium_photo-1714051661301-860c930a2c85?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="src/assets/ztrendz_T.jpg"
               className="h-fit  w-[100%] rounded-2xl"
               alt=""
             />
+            </div>
           </div>
           <div className="w-100 md:w-1/2 h-100 bg-black rounded-r-2xl pt-4 md:p-4 md:pt-8 md:pr-6 flex flex-col justify-between">
             <div className="h-[75%] flex flex-col justify-between">
@@ -134,19 +135,19 @@ function Projects() {
 
 {/* Third Project  */}
 
-
-<div className="h-fit w-[100%] flex flex-col md:flex-row  p-6 ">
-          <div className="w-100 md:w-1/2 h-fit bg-black  md:p-4 rounded-l-2xl">
-            <h4 className="font-semibold text-2xl md:text-3xl pb-4">
-              <span className="md:ml-2 font-mono text-teal-600 font-bold">0.3</span> Gym
+<div className="h-fit md:min-h-[500px] w-[100%] flex flex-col md:flex-row  p-6 ">
+          <div className="w-100 md:w-1/2  bg-black  md:p-4 rounded-l-2xl">
+            <h4 className=" h-[10%] font-semibold text-2xl md:text-3xl pb-4">
+              <span className="md:ml-2 font-mono text-teal-600 font-bold">0.1</span> Gym
               Fit Website
             </h4>
-
+            <div className="w-full h-[90%] flex items-center justify-center">
             <img
-              src="https://plus.unsplash.com/premium_photo-1714051661301-860c930a2c85?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="src/assets/ztrendz_T.jpg"
               className="h-fit  w-[100%] rounded-2xl"
               alt=""
             />
+            </div>
           </div>
           <div className="w-100 md:w-1/2 h-100 bg-black rounded-r-2xl pt-4 md:p-4 md:pt-8 md:pr-6 flex flex-col justify-between">
             <div className="h-[75%] flex flex-col justify-between">
