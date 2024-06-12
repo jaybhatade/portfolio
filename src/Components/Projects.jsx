@@ -31,7 +31,7 @@ function Projects() {
               Ztrendz India Website
             </h4>
             <div className="w-full h-[90%] flex items-center justify-center rounded-3xl">
-              <div className="h-fit w-[530px] border-2 border-[grey] flex  items-center rounded-3xl  overflow-hidden bg-blue-800">
+              <div className="h-fit w-[530px] border-2 border-[grey] flex  items-center rounded-3xl  overflow-hidden  ">
                 <HoverVideoPlayer
                   className=" rounded-full "
                   videoSrc="src\assets\ztrendz_v.mp4"
@@ -110,32 +110,37 @@ function Projects() {
           <div className="w-100 md:w-1/2  bg-zinc-950 md:p-4 rounded-3xl">
             <h4 className=" h-[10%] font-semibold text-2xl md:text-3xl pb-4">
               <span className="md:ml-2 font-mono text-teal-600 font-bold">
-                0.1
+                0.2
               </span>{" "}
-              Ztrendz India Website
+              Netspire Creatives Website
             </h4>
             <div className="w-full h-[90%] flex items-center justify-center rounded-3xl">
-              <HoverVideoPlayer
-                videoSrc="src\assets\ztrendz_v.mp4"
-                pausedOverlay={
-                
-                  <img
-                    src="src\assets\ztrendz_T.jpg"
-                    alt=""
-                    style={{
-                      // Make the image expand to cover the video's dimensions
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                  />
-                }
-                loadingOverlay={
-                  <div className="loading-overlay">
-                    <div className="loading-spinner" />
-                  </div>
-                }
-              />
+              <div className="h-fit w-[530px] border-2 border-[grey] flex  items-center rounded-3xl  overflow-hidden  ">
+                <HoverVideoPlayer
+                  className=" rounded-full "
+                  videoSrc="src\assets\NetspireCreatives_V.mp4"
+                  
+                  pausedOverlay={
+                    <img
+                      src="src\assets\NetspireCreatives_T.jpg"
+                      className="  "
+                      alt=""
+                      style={{
+                        // Make the image expand to cover the video's dimensions
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                        
+                      }}
+                    />
+                  }
+                  loadingOverlay={
+                    <div className="loading-overlay">
+                      <div className="loading-spinner" />
+                    </div>
+                  }
+                />
+              </div>
             </div>
           </div>
           <div className="w-100 md:w-1/2 h-100 bg-black rounded-r-2xl pt-4 md:p-4 md:pt-8 md:pr-6 flex flex-col justify-between">
@@ -144,13 +149,13 @@ function Projects() {
                 <h2 className="text-md font-mono font-bold uppercase text-teal-600">
                   Featured project{" "}
                 </h2>
-                <p className="text-4xl font-bold">E-Commerce Website</p>
+                <p className="text-4xl font-bold">Agency Website</p>
               </div>
               <div className="mt-6 ">
                 <p className="text-xl text-left md:text-right ">
-                  This is a Minimalistic Gym Website built with HTML, CSS, and
-                  JavaScript. With integration of Google Fonts for enhanced and
-                  modern typography
+                  This is a Minimalistic E-Commerce Website for Ztrendz India
+                  built with HTML, CSS, and JavaScript. With integration of
+                  Google Fonts for enhanced and modern typography.
                 </p>
 
                 <div className="flex gap-4 md:gap-6 justify-start md:justify-end pt-8 md:px-0 md:py-4 flex-wrap md:mt-4">
@@ -173,7 +178,7 @@ function Projects() {
             <div className="w-[100%]  h-[25%] flex justify-start py-10 md:py-0 md:justify-end items-end ">
               {" "}
               <a
-                href="https://www.ztrendzindia.com"
+                href="https://www.netspirecreatives.online"
                 target="_blank"
                 className="px-4 py-2 h-fit bg-teal-950 w-fit flex items-center rounded-md text-white font-bold border-2 border-teal-600 hover:bg-teal-800 transition-all ease-in-out duration-800"
               >
@@ -185,7 +190,8 @@ function Projects() {
         </div>
 
         {/* Third Project  */}
-        <div className="h-fit md:min-h-[480px] w-[100%] flex flex-col md:flex-row  rounded-3xl p-6 ">
+        
+                <div className="h-fit md:min-h-[480px] w-[100%] flex flex-col md:flex-row  rounded-3xl p-6 ">
           <div className="w-100 md:w-1/2  bg-zinc-950 md:p-4 rounded-3xl">
             <h4 className=" h-[10%] font-semibold text-2xl md:text-3xl pb-4">
               <span className="md:ml-2 font-mono text-teal-600 font-bold">
@@ -194,11 +200,33 @@ function Projects() {
               Ztrendz India Website
             </h4>
             <div className="w-full h-[90%] flex items-center justify-center rounded-3xl">
-              <img
-                src="src/assets/ztrendz_T.jpg"
-                className="h-fit  w-[550px] rounded-2xl shadow-2xl border-[grey] border-[2px]"
-                alt=""
-              />
+              <div className="h-fit w-[530px] border-2 border-[grey] flex  items-center rounded-3xl  overflow-hidden  ">
+                <HoverVideoPlayer
+                  className=" rounded-full "
+                  videoSrc="src\assets\Swis_V.mp4"
+                  restartOnPause
+                  
+                  pausedOverlay={
+                    <img
+                      src="src\assets\Swis Wbeiste.jpg"
+                      className="  "
+                      alt=""
+                      style={{
+                        // Make the image expand to cover the video's dimensions
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                        
+                      }}
+                    />
+                  }
+                  loadingOverlay={
+                    <div className="loading-overlay">
+                      <div className="loading-spinner" />
+                    </div>
+                  }
+                />
+              </div>
             </div>
           </div>
           <div className="w-100 md:w-1/2 h-100 bg-black rounded-r-2xl pt-4 md:p-4 md:pt-8 md:pr-6 flex flex-col justify-between">
@@ -211,9 +239,9 @@ function Projects() {
               </div>
               <div className="mt-6 ">
                 <p className="text-xl text-left md:text-right ">
-                  This is a Minimalistic Gym Website built with HTML, CSS, and
-                  JavaScript. With integration of Google Fonts for enhanced and
-                  modern typography
+                  This is a Minimalistic E-Commerce Website for Ztrendz India
+                  built with HTML, CSS, and JavaScript. With integration of
+                  Google Fonts for enhanced and modern typography.
                 </p>
 
                 <div className="flex gap-4 md:gap-6 justify-start md:justify-end pt-8 md:px-0 md:py-4 flex-wrap md:mt-4">
