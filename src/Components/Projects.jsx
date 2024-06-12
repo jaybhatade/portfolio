@@ -34,11 +34,11 @@ function Projects() {
               <div className="h-fit w-[530px] border-2 border-[grey] flex  items-center rounded-3xl  overflow-hidden  ">
                 <HoverVideoPlayer
                   className=" rounded-full "
-                  videoSrc="src\assets\ztrendz_v.mp4"
+                  videoSrc="/ztrendz_v.mp4"
                   
                   pausedOverlay={
                     <img
-                      src="src\assets\ztrendz_T.jpg"
+                      src="/ztrendz_T.jpg"
                       className="  "
                       alt=""
                       style={{
@@ -118,11 +118,12 @@ function Projects() {
               <div className="h-fit w-[530px] border-2 border-[grey] flex  items-center rounded-3xl  overflow-hidden  ">
                 <HoverVideoPlayer
                   className=" rounded-full "
-                  videoSrc="src\assets\NetspireCreatives_V.mp4"
-                  
+                  videoSrc="/NetspireCreatives_V.mp4"
+                  restartOnPause
+                  loop={true}
                   pausedOverlay={
                     <img
-                      src="src\assets\NetspireCreatives_T.jpg"
+                      src="/netspireCreatives_T.jpg"
                       className="  "
                       alt=""
                       style={{
@@ -197,18 +198,18 @@ function Projects() {
               <span className="md:ml-2 font-mono text-teal-600 font-bold">
                 0.1
               </span>{" "}
-              Ztrendz India Website
+              College Website
             </h4>
             <div className="w-full h-[90%] flex items-center justify-center rounded-3xl">
               <div className="h-fit w-[530px] border-2 border-[grey] flex  items-center rounded-3xl  overflow-hidden  ">
                 <HoverVideoPlayer
                   className=" rounded-full "
-                  videoSrc="src\assets\Swis_V.mp4"
+                  videoSrc="/Swis_V.mp4"
                   restartOnPause
                   
                   pausedOverlay={
                     <img
-                      src="src\assets\Swis Wbeiste.jpg"
+                      src="/Swis Wbeiste.jpg"
                       className="  "
                       alt=""
                       style={{
