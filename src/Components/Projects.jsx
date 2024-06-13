@@ -238,7 +238,7 @@ function Projects() {
               <div className="mt-6 ">
                 <p className="text-xl text-left md:text-right ">
                   This is a Minimalistic Demo Gym / Fittness Website built with HTML, CSS, JavaScript, Bootstrap, And Locomotive Js for soomth Scrolling. With integration of
-                  Google Fonts for enhanced and modern typography.
+                  Google Fonts for enhanced and modern typography. (not optimised for moblie)
                 </p>
 
                 <div className="flex gap-4 md:gap-6 justify-start md:justify-end pt-8 md:px-0 md:py-8 flex-wrap md:mt-4">
@@ -267,7 +267,7 @@ function Projects() {
             <div className="w-[100%]  h-[25%] flex justify-start py-10 md:py-0 md:justify-end items-end ">
               {" "}
               <a
-                href="https://www.ztrendzindia.com"
+                href="https://netspire1920.github.io/gym"
                 target="_blank"
                 className="px-4 py-2 h-fit bg-teal-950 w-fit flex items-center rounded-md text-white font-bold border-2 border-teal-600 hover:bg-teal-800 transition-all ease-in-out duration-800"
               >

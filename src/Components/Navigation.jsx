@@ -21,22 +21,22 @@ function Navigation() {
               </Link>
             </li>
             <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
-              <Link to="About" smooth={true} duration={500}>
+              <Link to="About" smooth={true} duration={600}>
                 About
               </Link>
             </li>
             <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
-              <Link to="Stack" smooth={true} duration={500} offset={-50}>
+              <Link to="Stack" smooth={true} duration={800} offset={-50}>
                 Stack
               </Link>
             </li>
             <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
-              <Link to="Projects" smooth={true} duration={500} offset={-90}>
+              <Link to="Projects" smooth={true} duration={900} offset={-90}>
                 Projects
               </Link>
             </li>
             <li className="m-4 text-xl cursor-pointer hover:text-teal-600 transition duration-150 ease-in-out font-bold">
-              <Link to="Contact" smooth={true} duration={500} offset={-50}>
+              <Link to="Contact" smooth={true} duration={1000} offset={-30}>
                 Contact
               </Link>
             </li>

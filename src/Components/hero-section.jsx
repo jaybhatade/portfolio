@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
@@ -28,8 +29,8 @@ const HeroSection = () => {
             >
               <TiSocialLinkedinCircular size={45} />
             </a>
-            <a
-              href="#"
+            <Link
+            to="Contact" smooth={true} duration={500} offset={-30}
               className="text-white  transition duration-150 ease-in-out"
             >
               <div className="w-full flex items-center justify-center cursor-pointer">
@@ -72,7 +73,7 @@ const HeroSection = () => {
                   </span>
                 </div>
               </div>
-            </a>
+            </Link>
 
           </div>
         </div>

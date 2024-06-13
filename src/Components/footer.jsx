@@ -21,7 +21,7 @@ function FooterSection() {
                         <Link to="About" smooth={true} duration={500} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>About</Link>
                         <Link to="Stack" smooth={true} duration={500} offset={-50} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Stack</Link>
                         <Link to="Projects" smooth={true} duration={500} offset={-100} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Projects</Link>
-                        <Link to="Contact" smooth={true} duration={500} offset={-70} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Contact</Link>
+                        <Link to="Contact" smooth={true} duration={500} offset={-30} className='text-lg font-bold hover:text-teal-600 transition-all duration-500 ease-in-out'>Contact</Link>
 
                     </div>
                 </div>
