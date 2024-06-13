@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Scrollbars } from 'react-custom-scrollbars';
 import Navigation from "./Components/Navigation";
 import HeroSection from "./Components/hero-section";
 import AboutScroll from "./Components/about-scroll";
