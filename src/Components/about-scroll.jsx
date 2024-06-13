@@ -16,8 +16,11 @@ function AboutScroll() {
         </div>
         <div className="md:w-[65%] w-[100%] p-8 md:p-4">
           <p className=" text-[20px] md:text-[27px] font-regular md:p-4">
-          With a wealth of experience in web development, I've dedicated myself to crafting exceptional digital experiences. 
-          Through collaborative efforts, I've had the privilege of working on projects that prioritize responsiveness and visual appeal. Let's collaborate to bring your vision to life and make an impact in the digital realm.
+          I am an Experienced Web Developer Specialized in Fornt-End Developement. I have worked with many agencies and businesses and helped them create their Online Presence. 
+          </p>
+          <p className=" text-[20px] md:text-[27px] font-regular pt-6 md:p-4">
+          With a Wide Range of technical knowledge i can easily adopt  various technologies as per the project requirements.
+          Let's collaborate to bring your vision to life and make an impact in the digital realm.
           </p> 
         </div>
 

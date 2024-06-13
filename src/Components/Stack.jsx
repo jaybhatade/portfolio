@@ -12,8 +12,8 @@ function Stack() {
         </div>
         <div className="md:w-[65%] w-[100%] p-8 md:p-4">
           <p className=" text-[20px] md:text-[27px] font-regular md:p-4">
-            With a wealth of experience in web development, I've dedicated
-            myself to crafting exceptional digital experiences.
+            My Tech-Stack inculdes the following technologies and also Expertise in Various No-Code, Low-Code Tools like Framer, Website Builders, Shopify, Etc. 
+
           </p>
           <div>
             <div className="flex gap-6 justify-start pt-8 md:p-4 flex-wrap">
@@ -22,11 +22,12 @@ function Stack() {
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Javascript</h2>
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">React</h2>
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Tailwind CSS</h2>
+            <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Locomotive JS</h2>
+            <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">WordPress</h2>
             <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">ASP.NET</h2>
             <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">PHP</h2>
-            <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">WordPress</h2>
             <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">My SQL</h2>
-            
+            <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Bootstrap</h2>
             </div>
 
           </div>

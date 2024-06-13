@@ -70,8 +70,7 @@ function Projects() {
               <div className="mt-6 ">
                 <p className="text-xl text-left md:text-right ">
                   This is a Minimalistic E-Commerce Website for Ztrendz India
-                  built with HTML, CSS, and JavaScript. With integration of
-                  Google Fonts for enhanced and modern typography.
+                  built with HTML, CSS, and JavaScript and odoo CMS for E-Commerce Store With integration of Google Fonts for enhanced and modern typography.
                 </p>
 
                 <div className="flex gap-4 md:gap-6 justify-start md:justify-end pt-8 md:px-0 md:py-4 flex-wrap md:mt-4">
@@ -154,9 +153,7 @@ function Projects() {
               </div>
               <div className="mt-6 ">
                 <p className="text-xl text-left md:text-right ">
-                  This is a Minimalistic E-Commerce Website for Ztrendz India
-                  built with HTML, CSS, and JavaScript. With integration of
-                  Google Fonts for enhanced and modern typography.
+                  A minimalistic agency website for Netspire Creatives a Web development & AI Automation Agency. Website has visually appealing and smooth animation and captivative UI Design
                 </p>
 
                 <div className="flex gap-4 md:gap-6 justify-start md:justify-end pt-8 md:px-0 md:py-4 flex-wrap md:mt-4">
@@ -164,10 +161,10 @@ function Projects() {
                     HTML
                   </h2>
                   <h2 className="py-2 px-4 md:px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out text-xs flex justify-center items-center font-semibold">
-                    CSS
+                    Google Fonts
                   </h2>
                   <h2 className="py-2 px-4 md:px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out text-xs flex justify-center items-center font-semibold">
-                    Google Fonts
+                    CSS
                   </h2>
                   <h2 className="py-2 px-4 md:px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out text-xs flex justify-center items-center font-semibold">
                     Javascript
@@ -196,20 +193,20 @@ function Projects() {
           <div className="w-100 md:w-1/2  bg-zinc-950 md:p-4 rounded-3xl">
             <h4 className=" h-[10%] font-semibold text-2xl md:text-3xl pb-4">
               <span className="md:ml-2 font-mono text-teal-600 font-bold">
-                0.1
+                0.3
               </span>{" "}
-              College Website
+              Gym Fit Website
             </h4>
             <div className="w-full h-[90%] flex items-center justify-center rounded-3xl">
               <div className="h-fit w-[530px] border-2 border-[grey] flex  items-center rounded-3xl  overflow-hidden  ">
                 <HoverVideoPlayer
                   className=" rounded-full "
-                  videoSrc="/Swis_V.mp4"
+                  videoSrc="/Gym_V.mp4"
                   restartOnPause
                   
                   pausedOverlay={
                     <img
-                      src="/Swis Wbeiste.jpg"
+                      src="/Gym Website.jpg"
                       className="  "
                       alt=""
                       style={{
@@ -234,18 +231,17 @@ function Projects() {
             <div className="h-[75%] flex flex-col justify-between">
               <div className="w-100 h-fit text-left md:text-right">
                 <h2 className="text-md font-mono font-bold uppercase text-teal-600">
-                  Featured project{" "}
+                  Demo project{" "}
                 </h2>
-                <p className="text-4xl font-bold">E-Commerce Website</p>
+                <p className="text-4xl font-bold">Gym Website</p>
               </div>
               <div className="mt-6 ">
                 <p className="text-xl text-left md:text-right ">
-                  This is a Minimalistic E-Commerce Website for Ztrendz India
-                  built with HTML, CSS, and JavaScript. With integration of
+                  This is a Minimalistic Demo Gym / Fittness Website built with HTML, CSS, JavaScript, Bootstrap, And Locomotive Js for soomth Scrolling. With integration of
                   Google Fonts for enhanced and modern typography.
                 </p>
 
-                <div className="flex gap-4 md:gap-6 justify-start md:justify-end pt-8 md:px-0 md:py-4 flex-wrap md:mt-4">
+                <div className="flex gap-4 md:gap-6 justify-start md:justify-end pt-8 md:px-0 md:py-8 flex-wrap md:mt-4">
                   <h2 className="py-2 px-4 md:px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out text-xs flex justify-center items-center font-semibold">
                     HTML
                   </h2>
@@ -257,6 +253,12 @@ function Projects() {
                   </h2>
                   <h2 className="py-2 px-4 md:px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out text-xs flex justify-center items-center font-semibold">
                     Javascript
+                  </h2>
+                  <h2 className="py-2 px-4 md:px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out text-xs flex justify-center items-center font-semibold">
+                    Bootstrap
+                  </h2>
+                  <h2 className="py-2 px-4 md:px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out text-xs flex justify-center items-center font-semibold">
+                    Locomotive JS
                   </h2>
                 </div>
               </div>
