@@ -22,11 +22,11 @@ function Stack() {
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Javascript</h2>
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">React</h2>
             <h2 className="py-2 px-8 bg-teal-600/55 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Tailwind CSS</h2>
+            <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">PHP</h2>
             <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Locomotive JS</h2>
+            <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">My SQL</h2>
             <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">WordPress</h2>
             <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">ASP.NET</h2>
-            <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">PHP</h2>
-            <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">My SQL</h2>
             <h2 className="py-2 px-8 bg-teal-600/45 border-2 border-teal-600 rounded-full hover:bg-teal-600 transtion-all duration-300 ease-in-out">Bootstrap</h2>
             </div>
 
