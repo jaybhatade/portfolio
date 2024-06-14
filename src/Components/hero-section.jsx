@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
-    <section id="Home" className="bg-black py-12  lg:py-20 h-[calc(100vh-60px)] min-h-fit lg:flex ">
+    <section id="Home" className="bg-black py-12  lg:py-20 h-[calc(100vh-60px)] min-h-fit max-h-[800px] lg:flex ">
       <div  className="container mx-auto max-w-[1240px] flex flex-col-reverse lg:flex-row items-center justify-center px-4 space-y-0 lg:space-y-0 lg:space-x-12 relative ">
         <div className="flex flex-col justify-center text-left lg:text-left lg:flex-1 lg:space-y-8">
           <p className="text-[20PX] lg:text-3xl font-medium text-white">

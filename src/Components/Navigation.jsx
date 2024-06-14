@@ -8,7 +8,7 @@ function Navigation() {
     setNav(!nav);
   };
   return (
-    <div className="w-100% h-20 sticky top-0 left-0 z-[9999] ">
+    <div className="w-100% h-20 sticky top-0 left-0 z-[9998] ">
       <div className="p-3">
         <div className="text-white bg-zinc-900/[.96] rounded-full w-100 h-20 flex justify-between items-center mx-auto px-4 max-w-[1240px]  backdrop-blur-sm shadow-2xl">
           <h1 className="w-full font-bold uppercase text-3xl text-teal-500">
