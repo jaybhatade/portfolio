@@ -77,13 +77,14 @@ const HeroSection = () => {
 
           </div>
         </div>
-        <div className="flex justify-center  lg:justify-center flex-1">
-          <img
-            src="https://iili.io/JbXfKB9.jpg"
-            alt="Hero"
-            className="rounded-lg shadow-lg w-[65%] h-[100%] mb-16 md:mb-0"
-          />
-        </div>
+        <div className="flex justify-center lg:justify-center flex-1">
+  <img
+    src="https://iili.io/didjl9t.jpg"
+    alt="Hero"
+    className="rounded-full shadow-lg w-[65%] h-auto mb-16 md:mb-0 object-cover"
+  />
+</div>
+
       </div>
     </section>
   );
