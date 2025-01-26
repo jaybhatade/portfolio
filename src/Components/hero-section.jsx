@@ -79,7 +79,7 @@ const HeroSection = () => {
         </div>
         <div className="flex justify-center lg:justify-center flex-1">
   <img
-    src="https://iili.io/didjl9t.jpg"
+    src="https://jb7-portfolio.netlify.app/JayBhatade_Logo-modified.png"
     alt="Hero"
     className="rounded-full shadow-lg w-[65%] h-auto mb-16 md:mb-0 object-cover"
   />
